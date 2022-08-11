@@ -10,3 +10,6 @@
 ###### 5. Restart nodejs
 `` pm2 restart master --watch `` 
   **Namun bila gagal, manual saja mulai dari STOP lalu START
+
+# Selengkapnya di :
+``` https://pm2.keymetrics.io/docs/usage/restart-strategies/ ```
