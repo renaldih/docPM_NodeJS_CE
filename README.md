@@ -2,7 +2,8 @@
 ###### 1. List nodejs
 `` pm2 list ``
 ###### 2. Start nodejs
-`` pm2 start [nama webservice] --watch ``
+`` pm2 start [nama webservice] --watch  [INI BILA SUDAH ADA]``
+`` pm2 start {path_app_js} --name {nama_namespace} --watch [INI BILA BELUM ADA]``
 ###### 3. Stop nodejs
 `` pm2 stop [nama webservice] ``
 ###### 4. Show List Process Info
